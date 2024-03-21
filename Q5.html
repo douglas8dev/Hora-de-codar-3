@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<script>
+
+        //5 - Faça um algoritmo que calcule e escreva a média aritmética dos dois números inteiros informados pelo usuário e todos os números inteiros entre eles. Considere que o primeiro sempre será menor que o segundo.
+
+            var num1 = parseInt(prompt("Digite o valor inicial: "));  
+            var num2 = parseInt(prompt("Digite o valor final:  "));
+            var media = 0;
+            var total = 0; 
+
+            for(var i=num1;i<=num2;i++){
+                media = media + i;
+                total++;
+            }
+            alert(media/total);
+
+</script>
+
+
+</body>
+</html>
